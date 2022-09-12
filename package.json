@@ -12,8 +12,8 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
-    "lint": "eslint --ignore-path .gitignore './**/*.{js,ts,json}'",
-    "lint:fix": "eslint --ignore-path .gitignore './**/*.{js,ts,json}' --fix",
+    "lint": "eslint --ignore-path .gitignore './**/*.{js,ts}'",
+    "lint:fix": "eslint --ignore-path .gitignore './**/*.{js,ts}' --fix",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,ts,json}'"
   },
   "dependencies": {
